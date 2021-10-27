@@ -1,7 +1,7 @@
 let dogs=[]
 
 dogs.push({name:"Winnie", breed:"Staffy", age:"age " +9, picture:"/IMG/winnie.jpg"})
-dogs.push({name:"Otto", breed:"Dachshund", age:"age " +7, picture:"/IMG/otto.jpg"})
+dogs.push({name:"Otto", breed:"Dachshund/Terrier", age:"age " +10, picture:"/IMG/otto.jpg"})
 dogs.push({name:"Otis", breed:"Husky", age:"age " + 4, picture:"/IMG/husky.jpg"})
 dogs.push({name:"Cheyenne", breed:"German Shepherd", age:"age " +6, picture:"/IMG/Cheyenne.jpg"})
 dogs.push({name:"Bianca", breed:"Golden Retriever", age:"age " +8, picture:"/IMG/golden.jpg"})
