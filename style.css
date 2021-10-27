@@ -1,0 +1,18 @@
+body{background-color: rgb(32, 31, 31);}
+
+.mainHeader{text-align: center}
+
+.card{width:600px;height:700px;background-color: rgba(255, 99, 71, 0.87); padding: 50px; margin:50px}
+
+.dogpic{max-width: 600px; max-height: 500px; display:block}
+
+.adoptbutton
+{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    background-color: darkred
+}
+
+#cardHolder{display:flex}
