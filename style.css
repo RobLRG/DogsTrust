@@ -15,4 +15,4 @@ body{background-color: rgb(32, 31, 31);}
     background-color: darkred
 }
 
-#cardHolder{display:flex}
+#cardHolder{display:flex;flex-wrap: wrap;justify-content: space-evenly;width:100%} /*styles the cards so they are side by side and will change their layout depending on screen size
