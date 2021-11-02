@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dogs Trust</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <form action="signup.html" method="post" id="signup">
+            <h1>Add Dog</h1>
+            <div class="field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter the dogs name" />
+                <small></small>
+            </div>
+            <div class="field">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" placeholder="Enter the dogs age" />
+                <small></small>
+            </div>
+            <div class="field">
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" placeholder="Enter the dogs age" />
+                <small></small>
+            </div>
+            <div class="field">
+                <button type="submit" class="full">Save</button>
+            </div>
+        </form>
+    </div>
+    <h1>I AM GAMING</h1>
+
     <h1 id="mainHeader">Dogs Trust</h1> <!--creates a header with an id that can be called in css-->
     <div id="cardHolder"></div> <!--creates a div that will hold all the things im making in js. Added an id that can be called in css-->
 </body>
